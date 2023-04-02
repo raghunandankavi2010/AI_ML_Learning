@@ -1,0 +1,25 @@
+Covariance is a measure of how much two random variables change together. A positive covariance indicates that two variables tend to increase or decrease in tandem. Conversely, a negative covariance indicates that two variables tend to move in opposite directions. Covariance can be calculated using the following formula (for population):
+
+Cov(X,Y) = Σ(Xi - μX)(Yi - μY) / N
+
+Where: Xi – the values of the X-variable Yi – the values of the Y-variable μX – the mean (average) of the X-variable μY – the mean (average) of the Y-variable N – number of data points
+
+Here’s an example: Over nine months, consider the mean prices of two stocks, A and B. Here, it is obvious that A and B stock prices increase and decrease on the same days. Thus, they have positive covariance 1.
+
+Example
+
+Suppose we have two data sets X = {2, 4, 6} and Y = {3, 5, 7}. We can calculate the covariance between these two data sets using the following formula:
+
+Cov(X,Y) = Σ(Xi - μX)(Yi - μY) / (N - 1)
+
+Where: Xi – the values of the X-variable Yi – the values of the Y-variable μX – the mean (average) of the X-variable μY – the mean (average) of the Y-variable N – number of data points
+
+First, we need to calculate the means of both data sets:
+
+μX = (2 + 4 + 6) / 3 = 4 μY = (3 + 5 + 7) / 3 = 5
+
+Next, we can calculate the covariance between X and Y:
+
+Cov(X,Y) = [(2-4)(3-5) + (4-4)(5-5) + (6-4)(7-5)] / (3-1) = [-4 + 0 + 4] / 2 = 0
+
+This means that there is no covariance between X and Y.
