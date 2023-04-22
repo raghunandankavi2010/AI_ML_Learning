@@ -1,0 +1,78 @@
+Linear scale and log-log scale are two different ways of scaling data on a chart. In a linear scale, each unit change is treated exactly the same. The change from $1 to $2 looks the same as the change from $10 to $11. In a log-log scale, each percentage change is treated the same. This means that a 50% increase from $10 to $15 looks the same as a 50% increase from $100 to $150.
+
+A linear scale is useful when you want to show absolute values or changes. A log-log scale is useful when you want to show relative changes. For example, if you are plotting stock prices over time, a log-log scale may be more appropriate because it shows percentage changes rather than absolute changes.
+
+I hope this helps! Let me know if you have any other questions.
+
+
+Linear scale = y = b+cx
+
+log log scale = y= cxpow(b)
+
+
+Why plotting on a log-log scale helps
+
+ 
+
+The objective of using a log scale is to make the plot readable by changing the scale. For example, the first ranked item had a frequency of 29000, the second ranked had 3500, the seventh had 700 and most others had very low frequencies such as 100, 80, 21 etc.  The range of frequencies is too large to fit on the plot.
+
+ 
+
+Plotting on a log scale compresses the values to a smaller scale which makes the plot easy to read.
+
+ 
+
+This happens because log(x) is a much smaller number than x. For example, log(10) = 1, log(100) = 2, log(1000) = 3 and so on. Thus, log(29000) is now approx. 4.5, log(3500) is approx. 3.5 and so on. What was earlier varying from 29000 to 1 is now compressed between 4.5 and 0, making the values easier to read on a plot.
+
+ 
+
+We will not get deeper into power law and what causes it, though you can access the additional material on 'what causes the power law' by Anand here.
+
+ 
+
+To summarise, the major takeaways from this lecture are:
+
+Plots are immensely helpful in identifying hidden patterns in the data 
+It is possible to extract meaningful insights from unordered categorical variables using rank-frequency plots
+Rank-frequency plots of unordered categorical variables, when plotted on a log-log scale, typically result in a power law distribution
+
+______________________________________________________________________________________________________________________________________________________________
+
+Imagine someone gives you an ordered categorical variable such as 'number of centuries scored by batsmen across the world' and asks you to extract interesting insights. 
+
+Here are a few steps you can take to extract interesting insights from an ordered categorical variable:
+
+1. Create a frequency table that shows the number of times each category appears in the dataset. This will give us an idea of which categories are most common in the dataset.
+
+2. Create a bar chart to visualize this information. This will make it easier to see which categories are most common.
+
+3. Calculate summary statistics such as mean, median, and mode for the variable. This will give us an idea of the central tendency of the data.
+
+4. Create a histogram to visualize the distribution of the data. This will help us see if the data is skewed or normally distributed.
+
+5. Group the data into intervals and create a frequency table for each interval. This will give us an idea of how the data is distributed across different ranges.
+
+
+ whenever you have a continuous or an ordered categorical variable, make sure you plot a histogram or a bar chart and observe any unexpected trends in it.
+
+ Interquartile difference is a much better metric than standard deviation if there are outliers in the data. This is because the standard deviation will be influenced by outliers while the interquartile difference will simply ignore them.
+
+Median when you have outliers
+
+ Mean when data is no skewed or there are not outliers
+
+ Mode is the value with the maximum frequency. In unordered categorical variables, any order or difference between values is not defined. So, using median and mean make no sense here
+
+
+ ____________________________________________________________________
+
+ For average variation it is always IQR
+
+ Ordinarily, one uses the IQR as measured by the box height H+−H− . H+ is th 75th percentile and H- is the 25th percentile
+ as the default measure of variation in a boxplot. That is because it is relatively unaffected by extreme values, making it a robust indicator of variation, and it is symmetric in not emphasizing high or low values
+
+
+https://www.youtube.com/watch?v=8NlIB5amCpg&t=3757s i think we should have gone thru this video on EDA before itself.  Outliers are gnerally decided on the data set. For eg age of person is 1000. age cannot be 1000 that's an outlier. for some case even though u feel data has outliers they might not be. for example speed of printers. If modern printers are at good speed we shud not consider them a s outleirs.
+ 
+
+

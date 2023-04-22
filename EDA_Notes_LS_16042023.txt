@@ -1,0 +1,140 @@
+EDA :
+------
+ -> Exploratory Data Analysis
+
+. The process of performing analysis on data to discover the patterns which describe the data
+like mean, mode, median, range, graphs etc to find the hidden pattern on dataset.
+. It is a good approach to analyse the data and gather the possible insights
+
+ML Lifecycle :
+---------------
+Import Data --> Data exploration --> Peform Data Cleaning --> Data Preparation --> Data partiations into  Train  -> Model Building      --
+			Test  -> Model Evaluation     ---> Model Deploy
+			Split		
+
+Training data :
+----------------
+Data which is used to get the model accuracy to the max or the available data which was used earlier to get the model accuracy.
+
+Test Data :
+------------
+Data which is unseen/initial data/new data and used to get the model fitment.
+
+Data Exploration :
+-------------------
+	-> No of rows and columns
+	-> Type of Columns
+	-> Column name
+	-> Missing Values
+	-> Distribution of Data
+	-> Outliers
+	-> class imbalance
+
+Data Cleaning :
+----------------
+	-> Hanlde missing values
+	-> Drop unnecessery columns
+	-> Data cleaning column
+
+Data Preparation :
+-------------------
+	-> Create more columns [Based on requirements]
+	-> Scaling
+	-> Data transformation
+
+Data :
+-------
+	1. Public
+	2. Private
+
+Variables :
+--------------
+	1. Continuous - numerical in nature and can attain any values
+	eg: Age, marks, salary etc
+	
+	2. Categorical - discrete in nature and have specific category
+	eg: Gender, Week days etc
+
+Categorical Variables :
+-------------------------
+	1. Ordinal - Individual categories are comparable or follows the order
+	eg: Rating
+
+	2. Nominal - individual categories which are non comparable
+	eg: Colours, Gender etc
+
+
+Outliers :
+-------------
+	-> Extreme low or high values which changes the distribution of the data
+	eg: Salary = [90k, 40k, 45k, 80k, 75k]
+		Avg  = 55k
+	By adding CEO salary = 1000K to Salary then the avg salary is 550K which is not definate value hence the outlier creates wrong data distribution or analysis.
+
+Therefore, in some cases outliers will be removed or kept
+
+Handling Missing Values :
+--------------------------
+Suggested Approach:
+	-> Business Knowledge
+	-> Mean, Mode or Median
+	-> Remove data
+
+if the missing values are >60% then discuss with client what to fill it with or decide whether to keep the values or remove it based on business knowledge.
+
+
+Scaling :
+----------
+	-> The purpose of the scaling is to put all the columns into similar scales to compare the values easily and therefore the ML algorithm peforms well on model building.
+	-> Its better to keep the scaling between 0-1
+
+1. Min-Max Scaling :
+	-> Implement it on the basis of outliers
+2. Standardization Scaling : 
+	-> Implement it on Mean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

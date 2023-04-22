@@ -1,0 +1,11 @@
+Linear scale and log-log scale are two different ways of scaling data on a chart. In a linear scale, each unit change is treated exactly the same. The change from $1 to $2 looks the same as the change from $10 to $11. In a log-log scale, each percentage change is treated the same. This means that a 50% increase from $10 to $15 looks the same as a 50% increase from $100 to $150.
+
+A linear scale is useful when you want to show absolute values or changes. A log-log scale is useful when you want to show relative changes. For example, if you are plotting stock prices over time, a log-log scale may be more appropriate because it shows percentage changes rather than absolute changes.
+
+I hope this helps! Let me know if you have any other questions.
+
+
+Linear scale = y = b+cx
+
+log log scale = y= cxpow(b)
+

@@ -1,0 +1,7 @@
+Pivot a table pands
+
+A pandas pivot table has three main elements:
+
+Index: This specifies the row-level grouping.
+Column: This specifies the column level grouping. 
+Values: These are the numerical values you are looking to summarize.
